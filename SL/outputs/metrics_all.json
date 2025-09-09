@@ -1,0 +1,56 @@
+{
+  "cancer": {
+    "knn": {
+      "accuracy": 0.7972,
+      "f1_macro": 0.7983019048097747,
+      "roc_auc": null
+    },
+    "svm_rbf": {
+      "accuracy": 0.97718,
+      "f1_macro": 0.9771597106048683,
+      "roc_auc": null
+    },
+    "svm_poly": {
+      "accuracy": 0.94298,
+      "f1_macro": 0.9434422206645209,
+      "roc_auc": null
+    },
+    "mlp_relu": {
+      "accuracy": 0.99308,
+      "f1_macro": 0.9930748912025749,
+      "roc_auc": null
+    },
+    "mlp_tanh": {
+      "accuracy": 0.99314,
+      "f1_macro": 0.9931369828790962,
+      "roc_auc": null
+    }
+  },
+  "bankrupt": {
+    "knn": {
+      "accuracy": 0.9706701862443173,
+      "f1_macro": 0.6379027992837707,
+      "roc_auc": 0.8035656228905206
+    },
+    "svm_rbf": {
+      "accuracy": 0.9530722979909078,
+      "f1_macro": 0.63231220301284,
+      "roc_auc": 0.8526973783906652
+    },
+    "svm_poly": {
+      "accuracy": 0.9501393166153395,
+      "f1_macro": 0.6733658005486591,
+      "roc_auc": 0.5833101434101585
+    },
+    "mlp_relu": {
+      "accuracy": 0.9656841179058513,
+      "f1_macro": 0.6715123173153885,
+      "roc_auc": 0.8695773464298998
+    },
+    "mlp_tanh": {
+      "accuracy": 0.9634843818741751,
+      "f1_macro": 0.6638370814646133,
+      "roc_auc": 0.8853903483998954
+    }
+  }
+}
